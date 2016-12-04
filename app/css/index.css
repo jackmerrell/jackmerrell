@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+::selection {
+  background: #1a1a1a;
+  color: white; }
+
+section {
+  height: 100vh;
+  margin: 0;
+  position: relative; }
+
+.landing {
+  color: #1a1a1a; }
+
+.project {
+  color: #1a1a1a; }
+
+.footer {
+  background-color: black;
+  margin: 0;
+  color: white; }
+
+.text-box {
+  width: 40vw;
+  padding: 100px 0 0 150px; }
+
+.image {
+  position: absolute;
+  right: 0px;
+  margin: 0;
+  bottom: 0;
+  width: 840px;
+  height: 630px;
+  background-image: url("../img/me.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; }
+
+.image-left {
+  position: absolute;
+  bottom: 200px;
+  left: 0px;
+  width: 840px;
+  height: 630px;
+  background-image: url("../img/twittergraph.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; }
+
+.project-title {
+  position: absolute;
+  width: 40vw;
+  right: 100px;
+  top: 40%;
+  font-size: 2em;
+  text-align: center;
+  font-style: italic; }
+
+h1 {
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1.5em; }
+
+a {
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: -1px; }
+
+a:hover {
+  cursor: pointer;
+  font-style: italic; }
