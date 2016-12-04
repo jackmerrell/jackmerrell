@@ -5,5 +5,5 @@ more.addEventListener('click', morePressed, false);
 
 
 function morePressed() {
-  footer.scrollIntoView();
+  footer.scrollIntoView({block: "end", behavior: "smooth"});
 }

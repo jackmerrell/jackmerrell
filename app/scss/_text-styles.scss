@@ -2,15 +2,14 @@ h1{
   letter-spacing: 1px;
   font-weight: 400;
   font-size: 1.5em;
+  line-height: 1.5em;
 }
 
-
-
 a {
-  border-bottom: 1px solid $dark-grey;
-  padding-bottom: -1px;
+  font-style: italic;
 }
 a:hover{
   cursor: pointer;
-  font-style: italic;
+  border-bottom: 4px solid $dark-grey;
+  padding-bottom: -1px;
 }

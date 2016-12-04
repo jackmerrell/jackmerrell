@@ -10,9 +10,9 @@ body{
 
 
 section{
-  height: 100vh;
-  margin: 0;
   position: relative;
+  height: 100vh;
+  margin: 0;  
 }
 
 .landing{
@@ -36,34 +36,32 @@ section{
 
 .image{
   position: absolute;
-  right:0px;
   margin: 0;
   bottom: 0;
   width: 840px;
   height: 630px;
-  background-image: url('../img/me.jpg');
   background-repeat: no-repeat;
   background-position: right;
   background-size:cover;
 }
 
-.image-left{
-  position:absolute;
-  bottom: 200px;
+.right{
+  right:0px;
+  background-image: url('../img/me.jpg');
+}
+
+
+.left{
   left:0px;
-  width: 840px;
-  height: 630px;
   background-image: url('../img/twittergraph.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size:cover;
 }
 
 .project-title{
-    position:absolute;
+    position: absolute;
     width: 40vw;
     right:100px;
     top:40%;
+    // float: left;
     font-size: 2em;
     text-align: center;
     font-style: italic;
