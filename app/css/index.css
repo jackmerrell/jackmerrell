@@ -26,6 +26,9 @@
   line-height: 0.75em;
   vertical-align: -15%; }
 
+.fa-15x {
+  font-size: 1.5em; }
+
 .fa-2x {
   font-size: 2em; }
 
@@ -2330,7 +2333,8 @@
 
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px; }
 
 ::selection {
   background: #1a1a1a;
@@ -2349,7 +2353,7 @@ section {
 
 .footer {
   background-color: black;
-  margin: 0;
+  margin: 10vh 0 0 0;
   color: white; }
 
 .text-box {
@@ -2363,7 +2367,6 @@ section {
   width: 840px;
   height: 630px;
   background-repeat: no-repeat;
-  background-position: right;
   background-size: cover; }
 
 .right {
@@ -2383,14 +2386,20 @@ section {
   text-align: center;
   font-style: italic; }
 
+.top {
+  position: absolute;
+  bottom: 100px; }
+
 h1 {
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.7em;
   line-height: 1.5em; }
 
 a {
-  font-style: italic; }
+  font-style: italic;
+  transition: all 0.1s ease;
+  border: none; }
 
 a:hover {
   cursor: pointer;
