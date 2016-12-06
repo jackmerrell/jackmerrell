@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+  from {
+    opacity:0;
+    background-position: right 20px;
+  }
+  to {
+    opacity:1;
+    background-position: right bottom;
+  }
+
+  }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	animation-name:fadeIn;
+  animation-timing-function: cubic-bezier(0,0,0,1);
+	animation-fill-mode:forwards;
+	animation-duration:1s;
+}
+
+  .one {
+  animation-delay: 0.2s;
+  }
+
+  .two {
+  animation-delay: 0.4s;
+  }
+
+  .three {
+  animation-delay: 0.6s;
+  }
+
+  .four {
+  animation-delay: 0.8s;
+  }

@@ -1,17 +1,70 @@
 h1{
-  letter-spacing: 1px;
+  letter-spacing: 0.02em;
   font-weight: 400;
-  font-size: 1.7em;
+  font-size: 1.4em;
   line-height: 1.5em;
+  margin: 0 0 1em;
 }
+
+h2{
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0 0 1em;
+}
+
+a:visited{text-decoration: none;}
+
 
 a {
   font-style: italic;
-  transition: all 0.1s ease;
-  border: none;
-}
-a:hover{
+  display: inline-block;
   cursor: pointer;
-  border-bottom: 4px solid $dark-grey;
-  padding-bottom: -1px;
+  color: inherit;
+  text-decoration: none;
+
+}
+
+a:after{
+  content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .3s ease;
+
+}
+
+a:hover:after{
+width: 100%;
+background: $dark-grey;
+border-radius: 2px;
+
+}
+
+.invert{
+
+}
+
+.invert:after{
+
+  width: 100%;
+  background: white;
+  transition: all .3s ease;
+  border-radius: 2px;
+
+}
+
+.invert:hover:after{
+  content: '';
+  display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+
+  background: transparent;
+
+
 }
